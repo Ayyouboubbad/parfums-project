@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://benfares.ma/</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Shop Page -->
+  <url>
+    <loc>https://benfares.ma/shop</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://benfares.ma/shop?category=women</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/shop?category=men</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/shop?category=luxury</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Product Pages -->
+  <url>
+    <loc>https://benfares.ma/product/1</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/2</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/3</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/4</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/5</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/6</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/7</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://benfares.ma/product/8</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://benfares.ma/about</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://benfares.ma/contact</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

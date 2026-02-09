@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cinzel:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-luxury-dark dark:text-gray-100;
+    @apply bg-white dark:bg-gray-900;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3 {
+    @apply font-playfair font-bold text-luxury-dark dark:text-white;
+  }
+
+  h4, h5, h6 {
+    @apply font-cinzel font-bold text-luxury-dark dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3 bg-luxury-gold text-luxury-dark font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 bg-luxury-darkRed text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-outline {
+    @apply px-8 py-3 border-2 border-luxury-gold text-luxury-gold font-semibold rounded-lg hover:bg-luxury-gold hover:text-luxury-dark transition-all duration-300;
+  }
+
+  .card-luxury {
+    @apply backdrop-blur-md bg-white dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-50 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-white dark:border-gray-700 border-opacity-20;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-luxury-gold via-luxury-darkRed to-luxury-gold bg-clip-text text-transparent;
+  }
+
+  .hero-gradient {
+    @apply bg-gradient-to-br from-luxury-dark via-luxury-darkRed to-luxury-dark;
+  }
+
+  .page-enter {
+    @apply animate-fadeIn;
+  }
+}
+
+/* Custom scroll bar - Light mode */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-luxury-gold dark:bg-luxury-darkRed rounded-full hover:bg-luxury-darkRed dark:hover:bg-luxury-gold;
+}
+
+/* Smooth page transition */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Dark mode specific styles */
+.dark {
+  color-scheme: dark;
+}
+
+/* Enhanced animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.animate-slide-left {
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.6s ease-out;
+}
+

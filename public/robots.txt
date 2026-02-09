@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /product/
+Allow: /about
+Allow: /contact
+
+Disallow: /admin
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Sitemap
+Sitemap: https://benfares.ma/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Allow fast crawling by major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
