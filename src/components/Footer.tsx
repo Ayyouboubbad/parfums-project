@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
                 className="flex items-center gap-2 text-gray-400 hover:text-luxury-gold transition-colors"
               >
                 <Instagram size={20} />
-                {t('footer.instagram')}
+                {t('instagram')}
               </a>
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={20} />
