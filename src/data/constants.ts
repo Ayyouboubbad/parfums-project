@@ -1,4 +1,4 @@
-export const WHATSAPP_PHONE = "+21237240867"; // Replace with actual number
+export const WHATSAPP_PHONE = "+212637240867"; // Replace with actual number
 export const BRAND_NAME = "BEN FARES PARFUMS";
 export const BRAND_TAGLINE = "Luxury Fragrances Inspired by Morocco";
 
