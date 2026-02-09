@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Instagram } from 'lucide-react';
 import { BRAND_NAME, WHATSAPP_PHONE } from '../data/constants';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -91,6 +91,15 @@ const Footer: React.FC = () => {
               >
                 <Mail size={20} />
                 {t('footer.emailUs')}
+              </a>
+              <a
+                href="https://www.instagram.com/benfares_parfums?igsh=MWhibm1xOGprd3NucA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-400 hover:text-luxury-gold transition-colors"
+              >
+                <Instagram size={20} />
+                {t('footer.instagram')}
               </a>
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={20} />
